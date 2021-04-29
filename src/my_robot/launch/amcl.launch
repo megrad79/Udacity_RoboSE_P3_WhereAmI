@@ -9,11 +9,11 @@
 
     <!-- overall filter -->
     <param name="min_particles" value="100"/>
-    <param name="max_particles" value="900"/>
-    <param name="update_min_d" value="0.25"/>
+    <param name="max_particles" value="300"/>
+    <param name="update_min_d" value="1"/>
     <param name="update_min_a" value="PI/6"/>
-    <param name="initial_pose_x" value="0"/>
-    <param name="initial_pose_y" value="0"/>
+    <param name="initial_pose_x" value="-1.5"/>
+    <param name="initial_pose_y" value="-3"/>
     <param name="initial_pose_a" value="PI/2"/>
     
     <!-- laser -->
