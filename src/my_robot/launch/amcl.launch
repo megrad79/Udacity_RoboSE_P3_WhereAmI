@@ -8,14 +8,14 @@
     <remap from="scan" to="/scan"/>
 
     <!-- overall filter -->
-    <param name="min_particles" value="30"/>
+    <param name="min_particles" value="100"/>
     <param name="max_particles" value="1000"/>
     <param name="update_min_d" value="1"/>
-    <param name="update_min_a" value="PI/6"/>
+    <param name="update_min_a" value="PI/9"/>
     <param name="initial_pose_x" value="-1.5"/>
     <param name="initial_pose_y" value="-3"/>
     <param name="initial_pose_a" value="PI/2"/>
-    <param name="resample_interval" value="3"/>
+    <param name="resample_interval" value="10"/>
     <param name="selective_resampling" value="false"/>
 
     
