@@ -12,9 +12,9 @@
     <param name="max_particles" value="1000"/>
     <param name="update_min_d" value="3"/>
     <param name="update_min_a" value="PI/6"/>
-    <param name="initial_pose_x" value="-1.5"/>
+    <param name="initial_pose_x" value="-2"/>
     <param name="initial_pose_y" value="-3"/>
-    <param name="initial_pose_a" value="PI/2"/>
+    <param name="initial_pose_a" value="0"/>
     <param name="resample_interval" value="3"/>
     <!-- param name="selective_resampling" value="false"/ -->
 
@@ -31,10 +31,10 @@
     <param name="odom_model_type" value="diff-corrected"/>
     <param name="base_frame_id" value="robot_footprint"/>
     <param name="global_frame_id" value="map"/>
-    <param name="odom_alpha1" value="0.2"/>
-    <param name="odom_alpha2" value="0.2"/>
-    <param name="odom_alpha3" value="0.2"/>
-    <param name="odom_alpha4" value="0.2"/>  
+    <param name="odom_alpha1" value="1"/>
+    <param name="odom_alpha2" value="0.5"/>
+    <param name="odom_alpha3" value="0.5"/>
+    <param name="odom_alpha4" value="1"/>  
   </node>
 
   <!-- Move base -->
